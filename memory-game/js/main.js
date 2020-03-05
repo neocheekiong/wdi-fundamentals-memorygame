@@ -10,7 +10,7 @@ function flipCard(cardId) {
 
 function checkForMatch() {
     if (cardsInPlay.length === 2) {
-        cardsInPlay[0] === cardsInPlay [1] ? alert("You found a match!") : alert("Sorry, try again.");
+        cardsInPlay[0] === cardsInPlay [1] ? console.log("You found a match!") : console.log("Sorry, try again.");
         cardsInPlay = [];
     }
 }
