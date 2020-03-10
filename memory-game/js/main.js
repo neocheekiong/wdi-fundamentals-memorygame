@@ -1,4 +1,17 @@
-let cards = [
+const config = {
+    gameDifficultyLevel: 4
+}
+
+class card {
+    constructor(rank, suit, cardImage, index) {
+        this.rank = rank;
+        this.suit = suit;
+        this.cardImage = cardImage;
+        this.index = index;
+    }
+}
+
+const cards = [
     {
         rank: "queen",
         suit: "hearts",
@@ -20,6 +33,10 @@ let cards = [
         cardImage: "images/king-of-diamonds.png"
     }
 ];
+
+
+
+
 
 let cardsInPlay = [];
 
